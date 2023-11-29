@@ -10,7 +10,7 @@ app.use(express.static("public"))
 
 app.use(
   cors({
-    origin: "https://neon-boba-a555e1.netlify.app/",
+    origin: "https://neon-boba-a555e1.netlify.app",
   })
 )
 
