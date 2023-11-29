@@ -10,7 +10,7 @@ app.use(express.static("public"))
 
 app.use(
   cors({
-    origin: "http://localhost:5500",
+    origin: "https://neon-boba-a555e1.netlify.app/",
   })
 )
 
@@ -54,5 +54,5 @@ fetch(process.env.DATA_URL)
   });
 
 app.listen(3000, () => {
-  console.log('Listening on port 3000')
+  console.log('Listening')
 })
